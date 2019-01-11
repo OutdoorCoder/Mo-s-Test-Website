@@ -1,8 +1,63 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0;
+  font: 14px 'Sarabun', sans-serif;
+}
+
+.main-wrapper {
+  width: 100%
+  height: auto;
+
+}
+
+.body-wrapper {
+  text-align: center;
+}
+
+.test-title {
+  font-family: 'Roboto Slab', serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+ul.header {
+    background-color: #61937E;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0px;
+    width: 100%;
+    height: 60px;
+
+}
+
+.header li {
+    float: left;
+    margin: 0;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 23px 16px;
+    /*text-decoration: none;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+    background-color: #75a390;
+}
+
+.header li.headerImage {
+  float: right;
+}
+
+.header .headerImage a {
+  padding: 0;
 }
