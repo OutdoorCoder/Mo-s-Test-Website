@@ -56,7 +56,14 @@ body {
 }
 
 .main-title {
+  text-align: center;
   font-family: 'Roboto Slab', serif;
+}
+
+.main-footer {
+  background-color: #5E778A;
+  height: 200px;
+  width: 100%;
 }
 
 a {
@@ -67,7 +74,7 @@ ul.header {
     background-color: #61937E;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 800px;
     overflow: hidden;
     border-radius: 0px;
     width: 100%;
@@ -86,7 +93,7 @@ ul.header {
     text-align: center;
     vertical-align: middle;
     padding: 25px 16px;
-    /*text-decoration: none;*/
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
 
