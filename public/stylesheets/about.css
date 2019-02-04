@@ -2,6 +2,7 @@ body {
   padding: 0px;
   margin: 0;
   font: 14px 'Sarabun', sans-serif;
+  overflow-x:hidden;
 }
 
 .about-image {
@@ -21,4 +22,43 @@ body {
   /*left: 50%;*/
   width: 400px;
   transform: translate(-50%, -50%);
+}
+
+.about-text-wrapper {
+}
+
+.about-text-sub-wrapper {
+  height: 100%;
+}
+
+.about-block {
+  justify-content: center;
+  display: flex;
+}
+
+.about-block-column {
+  border-radius: 5px;
+  padding: 20px;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.about-text-title {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.about-text {
+    text-align: left;
+    width: 600px;
+    float: right;
+    margin: 0;
+}
+
+.about-text-image {
+
+  width: 200px;
+  float:right;
 }
