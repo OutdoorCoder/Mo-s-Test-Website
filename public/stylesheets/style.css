@@ -67,6 +67,7 @@ body {
 }
 
 .main-footer {
+  position: absolute;
   background-color: #5E778A;
   height: 100px;
   width: 100%;
