@@ -3,6 +3,7 @@ body {
   margin: 0;
   font: 14px 'Sarabun', sans-serif;
   overflow-x:hidden;
+  height: 100%;
 }
 
 .main-wrapper {
