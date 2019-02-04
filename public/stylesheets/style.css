@@ -2,7 +2,7 @@ body {
   padding: 0px;
   margin: 0;
   font: 14px 'Sarabun', sans-serif;
-  overflow-x:hidden;
+  overflow:hidden;
   overflow-y: hidden;
 }
 
@@ -70,6 +70,10 @@ body {
   background-color: #5E778A;
   height: 100px;
   width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 a {
