@@ -2,8 +2,7 @@ body {
   padding: 0px;
   margin: 0;
   font: 14px 'Sarabun', sans-serif;
-  overflow:hidden;
-  overflow-y: hidden;
+  overflow-x:hidden;
 }
 
 .main-wrapper {
@@ -67,7 +66,7 @@ body {
 }
 
 .main-footer {
-  position: absolute;
+  vertical-align: baseline;
   background-color: #5E778A;
   height: 100px;
   width: 100%;
