@@ -25,10 +25,12 @@ body {
 }
 
 .about-text-wrapper {
+  padding-bottom: 150px;
 }
 
 .about-text-sub-wrapper {
   height: 100%;
+
 }
 
 .about-block {
