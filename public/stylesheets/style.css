@@ -3,11 +3,12 @@ body {
   margin: 0;
   font: 14px 'Sarabun', sans-serif;
   overflow-x:hidden;
+
 }
 
 .main-wrapper {
-  width: 100%
-  height: 100%;
+  width: 100%;
+  height: 838px;
 
 }
 
@@ -50,7 +51,6 @@ body {
   justify-content: center;
   display: flex;
   padding-bottom: 100px;
-  height: 250px;
 }
 
 .main-content-text {
