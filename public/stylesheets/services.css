@@ -14,7 +14,67 @@
   position: relative;
   top: 50%;
   left: 50%;
+  font-family: 'Roboto Slab', serif;
   /*left: 50%;*/
   width: 400px;
   transform: translate(-50%, -50%);
+}
+
+.services-main {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  width: 1100px;
+  text-align: left;
+}
+
+.s-intro-text {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sbt {
+  font: 20px 'Sarabun', sans-serif;
+}
+
+.sht {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  width: 800px;
+  text-align: center;
+}
+
+.sh2t {
+  font-family: 'Roboto Slab', serif;
+}
+
+.siw {
+  width: 300px;
+  margin-top: 80px;
+}
+
+.s-block {
+  justify-content: flex-start;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.s-block-column {
+  border-radius: 5px;
+  padding: 20px;
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.double_separator {
+    height: 12px;
+    border-top: 2px solid #e2e2e2;
+    border-bottom: 2px solid #e2e2e2;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px!important;
 }

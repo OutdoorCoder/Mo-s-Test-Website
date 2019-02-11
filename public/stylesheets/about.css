@@ -1,9 +1,3 @@
-body {
-  padding: 0px;
-  margin: 0;
-  font: 14px 'Sarabun', sans-serif;
-  overflow-x:hidden;
-}
 
 .about-image {
   text-align: center;
@@ -54,7 +48,7 @@ body {
 
 .about-text {
     text-align: left;
-    width: 600px;
+    width: 800px;
     float: right;
     margin: 0;
 }
@@ -67,7 +61,7 @@ body {
 
 .grey-background {
   background-color: #F5F5F5;
-  width: 1000px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
