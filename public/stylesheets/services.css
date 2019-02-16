@@ -42,8 +42,8 @@
 .sht {
   margin: 0;
   font-family: 'Roboto Slab', serif;
-  width: 800px;
-  text-align: center;
+  width: 100%;
+  text-align: left;
 }
 
 .sh2t {
@@ -52,13 +52,23 @@
 
 .siw {
   width: 300px;
-  margin-top: 80px;
+  margin-top: 10px;
+}
+
+.slt {
+  line-height: 20px;
 }
 
 .s-block {
   justify-content: flex-start;
   display: flex;
-  margin-bottom: 100px;
+}
+
+.s-text-block {
+  width: 800px;
+}
+.s-text-block2 {
+  width: 700px;
 }
 
 .s-block-column {
@@ -75,6 +85,6 @@
     border-top: 2px solid #e2e2e2;
     border-bottom: 2px solid #e2e2e2;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px!important;
+    margin-top: 30px;
+    margin-bottom: 30px!important;
 }
