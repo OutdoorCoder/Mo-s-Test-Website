@@ -1,0 +1,19 @@
+.contact-title {
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+}
+
+.contact-block {
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+}
+
+.contact-block-column {
+  border-radius: 5px;
+  padding: 20px;
+  flex-basis: 700px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: left;
+}
