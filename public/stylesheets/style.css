@@ -1,14 +1,14 @@
 body {
   padding: 0px;
   margin: 0;
-  font: 16px 'Sarabun', sans-serif;
+  font: 17px 'Sarabun', sans-serif;
   overflow-x:hidden;
 
 }
 
 .main-wrapper {
   width: 100%;
-  height: 838px;
+  height: 900px;
 
 }
 
@@ -61,7 +61,7 @@ body {
 .main-content-column {
   border-radius: 5px;
   padding: 20px;
-  flex-basis: 400px;
+  flex-basis: 550px;
   flex-grow: 0;
   flex-shrink: 0;
   text-align: left;

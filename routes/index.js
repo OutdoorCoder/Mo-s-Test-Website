@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Hi, this is the start of your website!' });
+  res.render('index', { title: 'Mosaic 3rd Sector Consulting' });
 });
 
 router.get('/about', function(req, res, next) {
