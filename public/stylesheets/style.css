@@ -148,12 +148,17 @@ ul.header {
 }
 
 .logo-item {
-  padding-left: 30%;
-  padding-top: 6px;
+  padding-left: 20%;
+  display: inline-block;
+}
+
+.logo-item > a {
+  padding-top: 5px !important;
+  padding-right: 0 !important;
 }
 
 .menu-items {
-  padding-left: 55%;
+  padding-left: 60%;
 }
 
 .header li {
@@ -173,7 +178,7 @@ ul.header {
 }
 
 /* Change the link color to #111 (black) on hover */
-.header li a:hover {
+.menuButton:hover {
     background-color: #004e66;
 }
 
