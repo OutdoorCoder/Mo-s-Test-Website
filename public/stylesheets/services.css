@@ -30,12 +30,25 @@
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .services-main {
+    width: 100%;
+  }
+}
+
 .s-intro-text {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-
 }
+
+@media screen and (max-width: 768px) {
+  .s-intro-text {
+    width: 80%;
+    margin: 10% 10%;
+  }
+}
+
 
 .sbt {
   font: 20px 'Sarabun', sans-serif;
@@ -48,8 +61,20 @@
   text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  .sht {
+    text-align: center;
+  }
+}
+
 .sh2t {
   font-family: 'Roboto Slab', serif;
+}
+
+@media screen and (max-width: 768px) {
+  .sh2t {
+    text-align: center;
+  }
 }
 
 .siw {
@@ -57,9 +82,25 @@
   margin-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .siw {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+}
+
 .siw2 {
   margin-top: 40px;
   width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .siw2 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
 }
 
 .slt {
@@ -75,8 +116,25 @@
 .s-text-block {
   width: 800px;
 }
+
+@media screen and (max-width: 768px) {
+  .s-text-block {
+    width: 80%;
+    margin: 10% 10%;
+  }
+}
+
 .s-text-block2 {
   width: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .s-text-block2 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0;
+  }
 }
 
 .s-block-column {
@@ -97,7 +155,7 @@
     margin-bottom: 30px!important;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
   .s-block {
     display: block;
   }
