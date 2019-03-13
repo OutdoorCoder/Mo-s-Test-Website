@@ -65,3 +65,33 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .about-block {
+    display: block;
+    height: 100%;
+  }
+
+  .about-text {
+    float: none;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .about-text-image {
+    float: none;
+  }
+
+  .grey-background {
+    width: auto;
+  }
+
+  .about-block-column {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+  }
+}
