@@ -3,6 +3,7 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Sarabun:500" rel="stylesheet">
 
@@ -22,15 +23,17 @@
 
 
       <ul class="header" id="header-menu">
-        <li class='logo-item'><a href="/"><img class="logo" src="/images/orig-transparent.png" alt="logo"></a></li>
+        <!--<li class='logo-item'><a href="/"><img class="logo" src="/images/orig-transparent.png" alt="logo"></a></li>
         <li class='aboutButton'><a href="/">Mosaic 3rd Sector Consulting</a></li>
+        -->
         <li class="icon">
           <a href="javascript:void(0);" class="icon" onclick="responsive()">
-            <i class="fa fa-bars">=</i>
+            ☰
           </a>
         </li>
 
         <div class="menu-items">
+          <li class='menuButton'><a href="/">Home</a></li>
           <li class='menuButton'><a href="/about">About</a></li>
           <li class='menuButton'><a href="/services">Services</a></li>
           <li class='menuButton'><a href="/contact">Contact</a></li>
@@ -42,15 +45,17 @@
       <div class="body-wrapper">
 
         <div class="main-image">
-
+          <img class="main-logo" src="/images/orig-transparent.png" alt="logo">
+          <h1 class='logo-title'>Mosaic</h1>
+          <p class='logo-text'>3rd Sector Consulting</p>
         </div>
 
-        <div class="main-image-content">
+        <div class="main-intro-content">
           <h1 class='test-title'>Our Mission</h1>
-          <p class='main-image-text'>Supporting Northwest non-profits in building a thriving community</p>
+          <p class='main-intro-text'>Supporting Northwest non-profits in building a thriving community</p>
         <!--<a href="/services" class="button button1">See More</a>*/-->
         </div>
-        
+
         <div class="main-content">
           <div class="main-content-column">
             <h1 class="main-title">Vision</h1>
