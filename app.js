@@ -23,6 +23,7 @@ app.use('/', indexRouter);
 app.use('/about', indexRouter);
 app.use('/services', indexRouter);
 app.use('/contact', indexRouter);
+app.use('/resources', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

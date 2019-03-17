@@ -10,12 +10,32 @@
 }
 
 .contact-block-column {
-  font-size: 17px;
+  font-size: 20px;
 
   border-radius: 5px;
   padding: 20px;
-  flex-basis: 600px;
+  flex-basis: 700px;
   flex-grow: 0;
   flex-shrink: 0;
   text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+
+  .contact-block-column {
+    width: 90%;
+    margin: 5% 5%;
+    padding: 0;
+  }
+
+  .contact-title {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+
+  }
+
+  .contact-block {
+    padding-top: 20px;
+    display: block;
+  }
 }
