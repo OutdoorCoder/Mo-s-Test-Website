@@ -101,6 +101,10 @@
     display: block;
   }
 
+  .services-image-text {
+    width: auto;
+  }
+
   .services-main {
     text-align: center;
     width: 100%;
