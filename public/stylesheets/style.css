@@ -208,7 +208,10 @@ ul.header {
 }
 
 .menu-items {
-  padding-left: 50%;
+  position: relative;
+  left: auto;
+  right: 18%;
+  float: right;
 }
 
 .header li {
