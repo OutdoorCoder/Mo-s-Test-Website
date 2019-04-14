@@ -279,11 +279,19 @@ body {
     text-align: center;
   }
 
+  .header li {
+    width: 100%;
+  }
+
   .header li a {
       display: none;
   }
   .menu-items {
     padding: 0;
+    position: static;
+    left: auto;
+    right: auto;
+    float: none;
   }
 
   .aboutButton {
