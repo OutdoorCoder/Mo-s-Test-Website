@@ -6,247 +6,252 @@ body {
 
 }
 
-.main-wrapper {
-  width: 100%;
-  height: auto;
+  .main-wrapper {
+    width: 100%;
+    height: auto;
 
-}
+  }
 
-.body-wrapper {
-  text-align: center;
+      /* start header section  START ------------------------------------------------------*/
 
-}
+      a {
+        color: #00B7FF;
+      }
 
-.main-image {
-  text-align: center;
-  vertical-align: middle;
-  color:#FFF;
-  width: 100%;
-  height: 500px;
-  background-image: url("/images/seattle-skyline3.jpg");/*url("https://images.pexels.com/photos/944636/pexels-photo-944636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
-  top: 0;
-  left: 0;
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+      ul.header {
+        background-color: #00303F;
+        margin: 0;
+        overflow: hidden;
+        border-radius: 0px;
+        width: 100%;
+        height: 60px;
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
 
-.main-logo {
-  /*top: 45%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;*/
-  margin-top: 25px;
-  width: 230px;
-}
+      }
 
-.logo-title {
-  font-family: 'Roboto Slab', serif;
-  margin: auto auto;
-  padding: 0;
-  margin-top: 0;
-  font-size: 50px;
-  letter-spacing: 4px;
-  color: #00303F;
-}
+      .menu-items {
+        position: relative;
+        left: auto;
+        right: 18%;
+        float: right;
+      }
 
-.logo-text {
-  color: #00303F;
-  font-size: 25px;
-  margin-bottom: 30px;
+      .header li {
+          float: left;
+          margin: 0;
+      }
 
-  margin-top:0;
-}
+      .header li a {
+          display: block;
+          color: white;
+          text-align: center;
+          vertical-align: middle;
+          padding: 25px 16px;
+          text-decoration: none;
+          font-family: 'Raleway', sans-serif;
+          letter-spacing: 2px;
+      }
 
-.main-intro-content {
+      .menuButton:hover {
+          background-color: #004e66;
+      }
 
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
+      .header li.headerImage {
+        float: right;
+      }
 
-}
+      .header .headerImage a {
+        padding: 0;
+      }
 
-.test-title {
-  font-family: 'Roboto Slab', serif;
-  margin: auto auto;
-  padding: 0;
-  font-size: 50px;
-  letter-spacing: 4px;
-}
+      .header .icon {
+        display: none;
+      }
 
-.main-intro-text {
-  font-size: 25px;
-  margin-bottom: 30px;
 
-  margin-top:0;
-}
+      /*header section END ---------------------------------------------------------------------*/
 
-.main-content {
-  justify-content: center;
-  display: flex;
-  padding-bottom: 0;
-}
+    .body-wrapper {
+      text-align: center;
 
-.main-content2 {
-  justify-content: center;
-  display: flex;
-  padding-bottom: 0;
-}
+    }
 
-.main-content-text {
-  justify-content: center;
-  display: flex;
-  text-align: left;
-}
+      /*home page image and logo START ------------------------------------------------------------*/
 
-.main-content-column {
-  border-radius: 5px;
-  padding: 20px;
-  flex-basis: 550px;
-  flex-grow: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  flex-shrink: 0;
-  text-align: center;
-}
+      .main-image {
+        text-align: center;
+        vertical-align: middle;
+        color:#FFF;
+        width: 100%;
+        height: 500px;
+        background-image: url("/images/seattle-skyline3.jpg");/*url("https://images.pexels.com/photos/944636/pexels-photo-944636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");*/
+        top: 0;
+        left: 0;
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
-.main-content-column1 {
-  border-radius: 5px;
-  padding: 0px;
-  padding-bottom: 50px;
-  flex-basis: 550px;
-  flex-grow: 0;
-  flex-shrink: 0;
-  text-align: center;
-}
+      .main-logo {
 
-.main-title {
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
-}
+        margin-top: 25px;
+        width: 230px;
+      }
 
-.button {
-  background-color: #DCAE1D; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
+      .logo-title {
+        font-family: 'Roboto Slab', serif;
+        margin: auto auto;
+        padding: 0;
+        margin-top: 0;
+        font-size: 50px;
+        letter-spacing: 4px;
+        color: #00303F;
+      }
 
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-}
+      .logo-text {
+        color: #00303F;
+        font-size: 25px;
+        margin-bottom: 30px;
 
-.button1 {
-  background-color: #DCAE1D;
+        margin-top:0;
+      }
 
-  border: 2px solid #DCAE1D;
-}
+      /* home page image and logo END -----------------------------------------------------------------------*/
 
-.button1:hover {
-  background-color: Transparent;
-  color: white;
-}
+      /* first title/paragraph section START -----------------------------------------------------------------------*/
 
-.button2 {
+      .main-intro-content {
 
-  margin-top: 20px;
-}
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
 
-.button2:hover {
-  color:black;
-}
+      }
 
-/*
-.main-footer {
-  position: relative;
-  background-color: #5E778A;
-  height: 100px;
-  width: 100%;
-  bottom: 0;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-}
-*/
+      .section-title {
+        font-family: 'Roboto Slab', serif;
+        margin: auto auto;
+        padding: 0;
+        font-size: 50px;
+        letter-spacing: 4px;
+      }
 
-a {
-  color: #00B7FF;
-}
+      .main-intro-text {
+        font-size: 25px;
+        margin-bottom: 30px;
 
-ul.header {
-  background-color: #00303F;
-  margin: 0;
-  overflow: hidden;
-  border-radius: 0px;
-  width: 100%;
-  height: 60px;
-  padding: 0;
-  width: 100%;
-  list-style-type: none;
+        margin-top:0;
+      }
 
-}
+      /* first title/paragraph section END -----------------------------------------------------------------------*/
 
-.logo {
-  width: 50px;
-}
+      /*flex grid content START -------------------------------------------------------------------------------------*/
 
-.logo-item {
-  padding-left: 20%;
-  display: inline-block;
-}
+      .main-content {
+        justify-content: center;
+        display: flex;
+        padding-bottom: 0;
+      }
 
-.logo-item > a {
-  padding-top: 5px !important;
-  padding-right: 0 !important;
-}
+        .main-content-text {
+          justify-content: center;
+          display: flex;
+          text-align: left;
+        }
 
-.menu-items {
-  position: relative;
-  left: auto;
-  right: 18%;
-  float: right;
-}
+        .main-content-column {
+          border-radius: 5px;
+          padding: 20px;
+          flex-basis: 550px;
+          flex-grow: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          flex-shrink: 0;
+          text-align: center;
+        }
 
-.header li {
-    float: left;
-    margin: 0;
-}
+      .main-content2 {
+        justify-content: center;
+        display: flex;
+        padding-bottom: 0;
+      }
 
-.header li a {
-    display: block;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-    padding: 25px 16px;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
-}
+        .main-content-column1 {
+          border-radius: 5px;
+          padding: 0px;
+          padding-bottom: 50px;
+          flex-basis: 550px;
+          flex-grow: 0;
+          flex-shrink: 0;
+          text-align: center;
+        }
 
-/* Change the link color to #111 (black) on hover */
-.menuButton:hover {
-    background-color: #004e66;
-}
+      /*flex grid content END ------------------------------------------------------------------------------------------------------------------*/
 
-.header li.headerImage {
-  float: right;
-}
 
-.header .headerImage a {
-  padding: 0;
-}
+      /*Home page ending section START ------------------------------------------------------------------------------------------------------------------*/
 
-.header .icon {
-  display: none;
-}
+      .main-title {
+        text-align: center;
+        font-family: 'Roboto Slab', serif;
+      }
 
+      .button {
+        background-color: #DCAE1D; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+
+      .button1 {
+        background-color: #DCAE1D;
+
+        border: 2px solid #DCAE1D;
+      }
+
+      .button1:hover {
+        background-color: Transparent;
+        color: white;
+      }
+
+      .button2 {
+
+        margin-top: 20px;
+      }
+
+      .button2:hover {
+        color:black;
+      }
+
+        /*Home page ending section END ------------------------------------------------------------------------------------------------------------------*/
+
+    /* the footer isn't wanted anymore but I'll keep this here in case they change their minds.
+      It still has an issue with zooming though. So keep that in mind if this gets used again.
+    .main-footer {
+      position: relative;
+      background-color: #5E778A;
+      height: 100px;
+      width: 100%;
+      bottom: 0;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+    }
+    */
+
+/* responsive screen adjustments */
 @media screen and (max-width: 768px) {
 
   .main-content-column {
