@@ -31,6 +31,7 @@
   padding-bottom: 80px;
 }
 
+  /* paragraphs after initial image START -------------------------------------------------------*/
   .s-intro-text {
     width: 700px;
     margin-left: auto;
@@ -40,6 +41,14 @@
   .services-bold-text {
     font: 20px 'Sarabun', sans-serif;
   }
+
+  .s-intro-text2 {
+    text-align: center;
+  }
+
+  /* paragraphs after initial image END -------------------------------------------------------*/
+
+  /* services subsections START -------------------------------------------------------*/
 
   .services-section-header {
     margin: 0;
@@ -72,9 +81,11 @@
     width: 300px;
   }
 
-  .slt {
+  .services-list {
     line-height: 20px;
   }
+
+  /* services subsections flex grid START -------------------------------------------------------*/
 
   .s-block {
     justify-content: flex-start;
@@ -98,6 +109,10 @@
     flex-shrink: 0;
     text-align: left;
   }
+
+    /* services subsections flex grid END -------------------------------------------------------*/
+
+    /* services subsections END -------------------------------------------------------*/
 
   .double_separator {
       height: 12px;
@@ -137,9 +152,7 @@
     width: 100%;
   }
 
-  .main-content-text {
-    text-align: center;
-  }
+
 
   p {
     text-align: center;
