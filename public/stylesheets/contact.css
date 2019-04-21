@@ -34,13 +34,13 @@
   .contact-block-column {
     width: 90%;
     margin: 5% 5%;
+    text-align: center;
     padding: 0;
   }
 
   .contact-title {
     text-align: center;
     font-family: 'Roboto Slab', serif;
-
   }
 
   .contact-block {
