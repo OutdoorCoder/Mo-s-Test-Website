@@ -1,22 +1,32 @@
 .contact-title {
   text-align: left;
   font-family: 'Roboto Slab', serif;
+  margin-top: 0;
 }
 
 .contact-block {
   justify-content: center;
   display: flex;
-  padding-top: 120px;
+  padding-top: 30px;
 }
 
 .contact-block-column {
   font-size: 20px;
 
   border-radius: 5px;
-  padding: 20px;
-  flex-basis: 700px;
+  padding: 40px;
+  padding-top: 0;
+  flex-basis: 750px;
   flex-grow: 0;
   text-align: left;
+}
+
+.contacts {
+  font-size: 25px;
+}
+
+.group-image {
+  height: 650px;
 }
 
 @media screen and (max-width: 768px) {
@@ -34,7 +44,12 @@
   }
 
   .contact-block {
-    padding-top: 20px;
+    padding-top: 0px;
     display: block;
+  }
+
+  .group-image {
+    height: auto;
+    width: 100%;
   }
 }
