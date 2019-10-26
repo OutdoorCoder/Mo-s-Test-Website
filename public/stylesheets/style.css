@@ -15,7 +15,7 @@ body {
   padding: 0px;
   margin: 0;
   font: 17px 'Sarabun', sans-serif;
-
+  width: auto;
 
 }
 
@@ -264,8 +264,18 @@ body {
     }
     */
 
+@media screen and (max-width: 1320px) {
+
+  body {
+    width: 1320px;
+  }
+}
+
 /* responsive screen adjustments */
 @media screen and (max-width: 768px) {
+  body {
+    width: auto;
+  }
 
   .main-content-column {
     width: 90%;
